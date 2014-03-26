@@ -1,0 +1,106 @@
+57.1.2:
+* Fixed the fluid name used for MFR's mob essence. Should fix compatibility with mob essence.
+
+57.1.1:
+* Fixed crash on startup (which was because I forgot to test a small change)
+
+57.1.0:
+* Probably added compatibility with OpenBlocks XP Juice. Machines should accept XP Juice as well as Liquid XP if OpenBlocks is installed. Not tested.
+* Probably added compatibility with TE3 Reactant Dynamos. One bucket of LXP should produce 1,000,000 RF by default. Not tested.
+* Fixed the default value of xpPerMobEssenceBucket (was 20, should be 15)
+* Added config options to multiply XP cost of imprinters and combiners.
+
+57.0.0:
+* Updated to Minecraft 1.6.4.
+
+56.0.2:
+* Fixed GUI backgrounds.
+
+56.0.1:
+* Fixed crash on startup on servers.
+
+56.0.0:
+* Updated to Minecraft 1.6.2.
+* Renamed glowing medallions to imbued medallions.
+* Removed Greg code.
+* Added creative tab for LXP machines and items.
+* Now fully translatable.
+
+55.1.6:
+* Made more things configurable.
+* A bucket of liquid XP is now worth 4 times the XP it was before.
+  This means that liquid XP you have in tanks is now worth 4 times what it was, unless you change it back,
+  and that you can move XP around 4 times as quickly, and store 4 times as much.
+  This also means recipes are slightly more expensive.
+* Changed liquid texture to be a normal texture in the JAR file with no special code.
+  Probably fixes problems with Optifine and HD texture packs.
+
+55.1.5:
+* Combiners will not process items with invalid enchantments on them.
+* Added trolling if your username is GregoriusT, disable-able with a java option.
+
+55.1.4:
+* Fixed MFR compatibility (not my fault, they gave me the wrong liquid name).
+
+55.1.3:
+* Fixed combiners not applying some enchantments that can be applied with an anvil.
+
+55.1.2:
+* Fixed some machines not dropping stored items when destroyed.
+* Fixed obvious enchantment dupe bug with isolator!
+
+55.1.1:
+* Added "destroyXPOverflow" option.
+
+55.1.0:
+* Added LXP Isolator, which will take a book with multiple enchantments or an *undamaged* enchanted tool
+  or armour piece, and transfer the enchantments to separate books.
+  Costs a (relatively) small amount of LXP.
+* Fixed sidedness of LXP Combiners.
+* Untested compatibility with inputting MFR Mob Essence into machines instead of Liquid XP.
+  One bucket of mob essence is worth two buckets of LXP.
+
+55.0.0:
+* Updated to Minecraft 1.5.2.
+
+54.0.2:
+* Liquid displays properly in BC tanks (and should display properly and not crash in RC tanks). Blame cpw for making a retarded API.
+
+54.0.1:
+* Fixed java.lang.NoSuchFieldException: recentlyHit
+* Increased the area the enchanter will search for bookshelves.
+* Added a display of the number of bookshelves in range to the Enchanter GUI.
+
+54.0.0:
+* Updated to Minecraft 1.5.1.
+
+53.0.0:
+* Updated to Minecraft 1.5.
+
+52.0.7:
+* You can now combine two enchanted books.
+
+52.0.6:
+* Added compatibility with RedPower fluid pipes, this is one of the few things you can do with RP2 without making Eloraam hate you.
+* Fixed calculation of XP required to repair a tool using a raw material (eg: diamond pickaxe + diamonds -> repaired diamond pickaxe)
+
+52.0.5:
+* ???
+
+52.0.4:
+* You can fill glass bottles with Liquid XP with any normal bucket filling method to get Bottles of Enchanting.
+  Throwing the bottle will return significantly less XP than was used to create it - on average, 80% will be wasted.
+
+52.0.3:
+* Fixed crash when using the Combiner on servers.
+
+52.0.2:
+* Now works on servers.
+* Moved liquid texture to a separate sheet by itself.
+
+52.0.1:
+* Removed testing feature that allowed you to create skeleton spawners.
+* Fixed catalyzer crash.
+
+52.0.0:
+* Initial release.

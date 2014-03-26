@@ -1,0 +1,16 @@
+tile.liquidxp.collector.name=LXP Collector
+tile.liquidxp.absorber.name=LXP Absorber
+tile.liquidxp.catalyzer.name=LXP Catalyzer
+tile.liquidxp.imprinter.name=LXP Imprinter
+tile.liquidxp.enchanter.name=LXP Enchanter
+tile.liquidxp.combiner.name=LXP Combiner
+tile.liquidxp.isolator.name=LXP Isolator
+
+item.liquidxp.bucket.name=LXP Bucket
+item.liquidxp.medallion.empty.name=Empty Medallion
+item.liquidxp.medallion.charged.name=Imbued Medallion
+item.liquidxp.medallion.level=Level %1$d
+
+itemGroup.liquidxp=Liquid XP
+
+fluid.immibis.liquidxp=Liquid XP
